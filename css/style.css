@@ -107,6 +107,11 @@ footer {
     line-height: 160%;
 }
 
+blockquote {
+    background-color: #262a2e;
+    padding: 30px;
+}
+
 .headImg {
     width: 100%;
 }
