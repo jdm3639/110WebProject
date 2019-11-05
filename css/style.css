@@ -2,11 +2,20 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Allerta';
-    font-size: 22px;
-  }
+    font-size: 24px;
+    background-color: #565b61;
+}
+
+footer {
+    padding: 10px;
+    background-color: #262a2e;
+    color: #9a9da0;
+    font-family: 'Allerta';
+    font-size: 16px;
+}
 
 .navBar { 
-    background-color: #050606;  
+    background-color: #262a2e;  
     width: 100%;
     height: 50px;
     overflow: hidden;
@@ -61,9 +70,30 @@ body {
     color: #e414fd;
 }
 
-.leftPhoto {
+/* Used for text items */
+.homeColor {
+    color: #14c3fd;
+}
+
+.effectivityColor {
+    color: #fd7e14;
+}
+
+.bibliographyColor {
+    color: #14fd82;
+}
+
+.impactColor {
+    color: #fd2414;
+}
+
+.historyColor {
+    color: #e414fd;
+}
+.photoOfMe {
     float:right; 
     width: 20%; 
+    max-width: 210px;
     margin-left: 5%;
     margin-top: .5%;
 }
@@ -73,4 +103,10 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     font-family: 'Allerta';
+    color:#9a9da0;
+    line-height: 160%;
+}
+
+.headImg {
+    width: 100%;
 }
