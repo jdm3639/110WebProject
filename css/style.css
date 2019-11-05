@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Allerta';
+    font-size: 22px;
+  }
+
+.navBar { 
+    background-color: #050606;  
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar div {
+    margin-right: 3px;
+    color: white;
+    background-color: #353a40; /*272b30 && 343a40 */
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+
+.navBar div a {
+    text-decoration: none;
+    color: #9a9da0;
+    transition: .15s;
+}
+
+.navBar div a i {
+    margin-right: 4px;
+}
+
+.navBar div a:hover {
+    color: #ffffff;
+    transition: .15s;
+}
+
+.navBar div a.home:hover {
+    color: #14c3fd;
+}
+
+.navBar div a.effectivity:hover {
+    color: #fd7e14;
+}
+
+.navBar div a.bibliography:hover {
+    color: #14fd82;
+}
+
+.navBar div a.impact:hover {
+    color: #fd2414;
+}
+
+.navBar div a.history:hover {
+    color: #e414fd;
+}
+
+.leftPhoto {
+    float:right; 
+    width: 20%; 
+    margin-left: 5%;
+    margin-top: .5%;
+}
+
+.centerContent {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Allerta';
+}
